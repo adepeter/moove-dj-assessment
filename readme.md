@@ -82,8 +82,8 @@ python manage.py runserver
 
 Once confirmed that development server is active and running, fire up your browser and input the address below:
 
-* **Swagger UI doc URL:** _[127.0.0.1:8080/docs/swagger/](https://127.0.0.1:8000/docs/swagger/)_
-* **Redoc UI doc URL:** _[127.0.0.1:8080/docs/redoc/](https://127.0.0.1:8000/docs/redoc/)_
+* **Swagger UI doc URL:** _[127.0.0.1:8000/docs/swagger/](https://127.0.0.1:8000/docs/swagger/)_
+* **Redoc UI doc URL:** _[127.0.0.1:8000/docs/redoc/](https://127.0.0.1:8000/docs/redoc/)_
 
 ### Authenticating API and Admin page
 
@@ -91,7 +91,7 @@ This API uses three method of authentication to authenticate restrict session wh
 backend. To allow acces, easiest and basic authentication is to login the admin by using the url below and supplying the
 stated credentials.
 
-* **Django Admin URL:** _[127.0.0.1:8080/admin](https://127.0.0.1:8000/admin)_
+* **Django Admin URL:** _[127.0.0.1:8000/admin](https://127.0.0.1:8000/admin)_
 * **Token:** _2eeb62f783d65d11c752cb28fd6c63dd3e258053_
 * **Username:** *test*
 * **Password:** *test*
